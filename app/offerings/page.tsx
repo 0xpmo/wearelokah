@@ -3,8 +3,9 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Navigation from "@/components/navigation";
+import Footer from "@/components/footer";
 
-export default function ServicesPage() {
+export default function OfferingsPage() {
   return (
     <div className="min-h-screen bg-stone-50">
       <Navigation />
@@ -655,98 +656,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <footer
-        className="py-16 px-8"
-        style={{ backgroundColor: "rgb(244 244 236)" }}
-      >
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 items-start">
-            <div>
-              {/* Logo image - uncomment when ready to use */}
-              {/* <img
-                src="/logo-text-black.png"
-                alt="LOKAH"
-                className="h-16 w-auto mb-8"
-              /> */}
-              <h2
-                className="text-3xl font-light tracking-widest mb-8"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                LOKAH
-              </h2>
-            </div>
-            <div className="space-y-3">
-              <Link
-                href="/"
-                className="block hover:opacity-80 transition-opacity font-light text-lg"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                Home
-              </Link>
-              <Link
-                href="/services"
-                className="block hover:opacity-80 transition-opacity font-light text-lg"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                Offerings
-              </Link>
-              <Link
-                href="/courses"
-                className="block hover:opacity-80 transition-opacity font-light text-lg"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                Courses
-              </Link>
-              <Link
-                href="/retreat"
-                className="block hover:opacity-80 transition-opacity font-light text-lg"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                Retreats
-              </Link>
-              <Link
-                href="/contact"
-                className="block hover:opacity-80 transition-opacity font-light text-lg"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                Contact
-              </Link>
-            </div>
-          </div>
-          <div
-            className="mt-12 pt-8 text-center border-t-2"
-            style={{ borderTopColor: "rgba(120, 89, 59, 0.3)" }}
-          >
-            <p
-              className="font-light text-sm tracking-wide"
-              style={{
-                color: "rgb(120 89 59)",
-                fontFamily: "Montserrat, sans-serif",
-              }}
-            >
-              © 2025 LOKAH. A new world within.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
