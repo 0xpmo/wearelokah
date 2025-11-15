@@ -21,14 +21,18 @@ export default function HomePage() {
         <div className="absolute inset-0 flex items-center justify-center text-center text-white">
           <div className="space-y-6 max-w-2xl px-8">
             <div className="flex justify-center">
-              <img
+              {/* Logo image - uncomment when ready to use */}
+              {/* <img
                 src="/logo-text-white.png"
-                alt="Cyclical Ceremony"
+                alt="LOKAH"
                 className="h-32 md:h-48 w-auto"
-              />
+              /> */}
+              <h1 className="text-6xl md:text-8xl font-light tracking-widest">
+                LOKAH
+              </h1>
             </div>
             <p className="text-lg md:text-xl font-light tracking-widest opacity-90 mt-8 uppercase">
-              Sacred Feminine Wisdom
+              A NEW WORLD WITHIN
             </p>
           </div>
         </div>
@@ -228,7 +232,7 @@ export default function HomePage() {
             className="text-2xl font-whimsical font-medium"
             style={{ color: "white", fontFamily: "Montserrat, sans-serif" }}
           >
-            join the cyclical ceremony
+            join lokah
           </p>
           <div className="flex items-center space-x-2 w-full max-w-md">
             <input
@@ -255,11 +259,21 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
-              <img
+              {/* Logo image - uncomment when ready to use */}
+              {/* <img
                 src="/logo-text-black.png"
-                alt="Cyclical Ceremony"
+                alt="LOKAH"
                 className="h-16 w-auto mb-8"
-              />
+              /> */}
+              <h2
+                className="text-3xl font-light tracking-widest mb-8"
+                style={{
+                  color: "rgb(120 89 59)",
+                  fontFamily: "Montserrat, sans-serif",
+                }}
+              >
+                LOKAH
+              </h2>
             </div>
             <div className="space-y-3">
               <Link
@@ -273,16 +287,6 @@ export default function HomePage() {
                 Home
               </Link>
               <Link
-                href="/about"
-                className="block hover:opacity-80 transition-opacity font-light text-lg"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                About Us
-              </Link>
-              <Link
                 href="/services"
                 className="block hover:opacity-80 transition-opacity font-light text-lg"
                 style={{
@@ -293,6 +297,16 @@ export default function HomePage() {
                 Offerings
               </Link>
               <Link
+                href="/courses"
+                className="block hover:opacity-80 transition-opacity font-light text-lg"
+                style={{
+                  color: "rgb(120 89 59)",
+                  fontFamily: "Montserrat, sans-serif",
+                }}
+              >
+                Courses
+              </Link>
+              <Link
                 href="/retreat"
                 className="block hover:opacity-80 transition-opacity font-light text-lg"
                 style={{
@@ -300,7 +314,7 @@ export default function HomePage() {
                   fontFamily: "Montserrat, sans-serif",
                 }}
               >
-                Retreat
+                Retreats
               </Link>
               <Link
                 href="/contact"
@@ -325,7 +339,7 @@ export default function HomePage() {
                 fontFamily: "Montserrat, sans-serif",
               }}
             >
-              © 2025 Cyclical Ceremony. Honoring the sacred feminine within.
+              © 2025 LOKAH. A new world within.
             </p>
           </div>
         </div>

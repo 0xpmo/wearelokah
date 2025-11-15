@@ -710,11 +710,21 @@ export default function RetreatPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
-              <img
+              {/* Logo image - uncomment when ready to use */}
+              {/* <img
                 src="/logo-text-black.png"
-                alt="Cyclical Ceremony"
+                alt="LOKAH"
                 className="h-16 w-auto mb-8"
-              />
+              /> */}
+              <h2
+                className="text-3xl font-light tracking-widest mb-8"
+                style={{
+                  color: "rgb(120 89 59)",
+                  fontFamily: "Montserrat, sans-serif",
+                }}
+              >
+                LOKAH
+              </h2>
             </div>
             <div className="space-y-3">
               <Link
@@ -728,16 +738,6 @@ export default function RetreatPage() {
                 Home
               </Link>
               <Link
-                href="/about"
-                className="block hover:opacity-80 transition-opacity font-light text-lg"
-                style={{
-                  color: "rgb(120 89 59)",
-                  fontFamily: "Montserrat, sans-serif",
-                }}
-              >
-                About Us
-              </Link>
-              <Link
                 href="/services"
                 className="block hover:opacity-80 transition-opacity font-light text-lg"
                 style={{
@@ -748,6 +748,16 @@ export default function RetreatPage() {
                 Offerings
               </Link>
               <Link
+                href="/courses"
+                className="block hover:opacity-80 transition-opacity font-light text-lg"
+                style={{
+                  color: "rgb(120 89 59)",
+                  fontFamily: "Montserrat, sans-serif",
+                }}
+              >
+                Courses
+              </Link>
+              <Link
                 href="/retreat"
                 className="block hover:opacity-80 transition-opacity font-light text-lg"
                 style={{
@@ -755,7 +765,7 @@ export default function RetreatPage() {
                   fontFamily: "Montserrat, sans-serif",
                 }}
               >
-                Retreat
+                Retreats
               </Link>
               <Link
                 href="/contact"
@@ -780,7 +790,7 @@ export default function RetreatPage() {
                 fontFamily: "Montserrat, sans-serif",
               }}
             >
-              © 2025 Cyclical Ceremony. Honoring the sacred feminine within.
+              © 2025 LOKAH. A new world within.
             </p>
           </div>
         </div>

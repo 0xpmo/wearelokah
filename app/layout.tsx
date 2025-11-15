@@ -5,9 +5,9 @@ import { Suspense } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cyclical Ceremony - Holistic Health & Menstrual Cycle Coaching",
+  title: "LOKAH - A New World Within",
   description:
-    "Empowering women through holistic health coaching and menstrual cycle wisdom. 1:1 coaching, yoga retreats, and sacred healing spaces with Lucy.",
+    "A new world within. Empowering transformation through holistic health coaching, courses, and retreats.",
   generator: "v0.app",
   keywords: [
     "menstrual cycle coaching",

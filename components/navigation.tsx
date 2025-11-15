@@ -52,14 +52,6 @@ export default function Navigation() {
             Home
           </Link>
           <Link
-            href="/about"
-            className="block hover:opacity-80 transition-opacity font-light text-lg"
-            style={{ color: "white", fontFamily: "Montserrat, sans-serif" }}
-            onClick={() => setIsMenuOpen(false)}
-          >
-            About Us
-          </Link>
-          <Link
             href="/services"
             className="block hover:opacity-80 transition-opacity font-light text-lg"
             style={{ color: "white", fontFamily: "Montserrat, sans-serif" }}
@@ -68,12 +60,20 @@ export default function Navigation() {
             Offerings
           </Link>
           <Link
+            href="/courses"
+            className="block hover:opacity-80 transition-opacity font-light text-lg"
+            style={{ color: "white", fontFamily: "Montserrat, sans-serif" }}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Courses
+          </Link>
+          <Link
             href="/retreat"
             className="block hover:opacity-80 transition-opacity font-light text-lg"
             style={{ color: "white", fontFamily: "Montserrat, sans-serif" }}
             onClick={() => setIsMenuOpen(false)}
           >
-            Retreat
+            Retreats
           </Link>
           <Link
             href="/contact"
